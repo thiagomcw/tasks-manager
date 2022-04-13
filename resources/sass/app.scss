@@ -1,0 +1,22 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.task-item {
+    background: #f2f2f2;
+    cursor: pointer;
+
+    &.completed {
+        background: #e1ecde;
+        text-decoration: line-through;
+    }
+}
+
+[v-cloak] .v-cloak--hidden {
+    display: none;
+}
